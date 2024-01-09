@@ -1,0 +1,38 @@
+/* font-family */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+.primary{
+    color: blue;
+}
+.btn-primary{
+   background-color: rgb(255, 35, 35);
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 35px;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+} 
+nav a{
+    text-decoration: none;
+    margin-right: 40px;
+}
