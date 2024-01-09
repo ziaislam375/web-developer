@@ -67,6 +67,10 @@ nav a{
 .banner .profile-pic{
     width: 500px;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* section styles */
 .about{
     padding: 130px;
@@ -83,4 +87,14 @@ nav a{
     font-size: 18px;
     text-align: center;
 
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#can-i{
+    padding: 10px 30px;
 }
