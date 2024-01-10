@@ -139,4 +139,21 @@ footer{
     background: whitesmoke;
     margin-top: 100px;
     padding: 100px 50px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-link a{
+    margin-right: 25px;
+    
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 18px 35px;
+    color: rgb(58, 56, 53);
+    border-radius: 5px;
+    border: 0;
+    background: white;
 }
