@@ -119,3 +119,24 @@ main section{
     font-weight: 700;
     color: rgb(66, 62, 62);
 }
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-container hr{
+    margin: 20px;
+}
+.resume-item-info, .resume-item-description{
+    color: grey;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 30px;
+}
+/* footer styles */
+footer{
+    display: flex;
+    background: whitesmoke;
+    margin-top: 100px;
+    padding: 100px 50px;
+}
